@@ -1,0 +1,9 @@
+# 草帽自定义规则集
+
+# Figma
+DOMAIN-SUFFIX,app.launchdarkly.com
+DOMAIN-SUFFIX,figma.com
+PROCESS-NAME,Figma Helper
+PROCESS-NAME,Figma
+PROCESS-NAME,/Applications/Figma.app/Contents/MacOS
+PROCESS-NAME,/Applications/Figma.app/Contents/MacOS
