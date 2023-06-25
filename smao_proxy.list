@@ -6,7 +6,11 @@
 # PROCESS-NAME,Figma
 # PROCESS-NAME,/Applications/Figma.app/Contents/MacOS
 
-DOMAIN-KEYWORD,figma
+DOMAIN-KEYWORD,figma.com
+DOMAIN-KEYWORD,launchdarkly
+DOMAIN-KEYWORD,statsigapi
+DOMAIN-KEYWORD,sprig
+
 DOMAIN-KEYWORD,f1y.dev
 DOMAIN-KEYWORD,Isms.me
 DOMAIN-KEYWORD,jsdelivr.net
