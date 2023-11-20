@@ -6,6 +6,8 @@
 # PROCESS-NAME,Figma
 # PROCESS-NAME,/Applications/Figma.app/Contents/MacOS
 
+# open ai 新增的两个域名：oaistatic.com oaiusercontent.com
+
 DOMAIN-KEYWORD,figma.com
 DOMAIN-KEYWORD,launchdarkly
 DOMAIN-KEYWORD,statsigapi
