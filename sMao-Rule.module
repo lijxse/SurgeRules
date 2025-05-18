@@ -1,2 +1,5 @@
+#!name=sMao 自定义规则集
+#!desc=草帽个人使用的规则集，都是订阅链接没有覆盖到的规则。
+
 [Rule]
 DOMAIN,notebooklm.google,AI
