@@ -1,5 +1,2 @@
-[General]
-skip-proxy =
-
 [Rule]
 DOMAIN,notebooklm.google,AI
