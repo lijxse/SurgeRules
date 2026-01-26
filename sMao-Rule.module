@@ -3,6 +3,6 @@
 
 [Rule]
 DOMAIN,notebooklm.google,AI
-api.openrouter.ai,AI
-openrouter.ai,AI
-console.anthropic.com,AI
+DOMAIN,api.openrouter.ai,AI
+DOMAIN,openrouter.ai,AI
+DOMAIN,console.anthropic.com,AI
