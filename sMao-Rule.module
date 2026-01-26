@@ -1,8 +1,16 @@
 #!name=sMao 自定义规则集
-#!desc=草帽个人使用的规则集，都是订阅链接没有覆盖到的规则。
+#!desc=草帽个人使用的规则集，都是订阅链接没有覆盖到的规则，Surge 专用。
 
 [Rule]
 DOMAIN,notebooklm.google,AI
 DOMAIN,api.openrouter.ai,AI
 DOMAIN,openrouter.ai,AI
 DOMAIN,console.anthropic.com,AI
+
+DOMAIN,api.segment.io,AI
+DOMAIN-SUFFIX,launchdarkly.com,AI
+DOMAIN-SUFFIX,diabrowser.engineering,AI
+
+### 归档
+# DOMAIN-SUFFIX,googleapis.com,🇯🇵 日本实验性 IEPL 中继 1
+# DOMAIN-SUFFIX,googleusercontent.com,🇯🇵 日本实验性 IEPL 中继 1
