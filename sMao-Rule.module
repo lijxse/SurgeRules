@@ -10,6 +10,7 @@ DOMAIN,console.anthropic.com,AI
 DOMAIN,api.segment.io,AI
 DOMAIN-SUFFIX,launchdarkly.com,AI
 DOMAIN-SUFFIX,diabrowser.engineering,AI
+DOMAIN-SUFFIX,Figma Helper,Proxies
 
 ### 归档
 # DOMAIN-SUFFIX,googleapis.com,🇯🇵 日本实验性 IEPL 中继 1
