@@ -1,0 +1,21 @@
+#!name=sMao 自定义规则集
+#!desc=草帽个人使用的规则集，都是订阅链接没有覆盖到的规则，Surge 专用。
+
+[Rule]
+# US 组
+DOMAIN,notebooklm.google,US
+DOMAIN,api.openrouter.ai,US
+DOMAIN,openrouter.ai,US
+DOMAIN,console.anthropic.com,US
+DOMAIN,api.segment.io,US
+DOMAIN-SUFFIX,launchdarkly.com,USv
+DOMAIN-SUFFIX,diabrowser.engineering,US
+DOMAIN-SUFFIX,Typeless Helper,US
+
+# 默认线路
+DOMAIN-SUFFIX,Figma Helper,Proxies
+DOMAIN-SUFFIX,Heptabase,Proxies
+
+### 归档
+# DOMAIN-SUFFIX,googleapis.com,🇯🇵 日本实验性 IEPL 中继 1
+# DOMAIN-SUFFIX,googleusercontent.com,🇯🇵 日本实验性 IEPL 中继 1
