@@ -8,7 +8,7 @@ DOMAIN,api.openrouter.ai,US
 DOMAIN,openrouter.ai,US
 DOMAIN,console.anthropic.com,US
 DOMAIN,api.segment.io,US
-DOMAIN-SUFFIX,launchdarkly.com,USv
+DOMAIN-SUFFIX,launchdarkly.com,US
 DOMAIN-SUFFIX,diabrowser.engineering,US
 DOMAIN-SUFFIX,Typeless Helper,US
 
