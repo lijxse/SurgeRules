@@ -1,1 +1,22 @@
 
+#!name=sMao 自定义规则集 Kuromiss
+#!desc=草帽个人使用的规则集，都是订阅链接没有覆盖到的规则，Surge 专用
+
+[Rule]
+# US 组
+DOMAIN,notebooklm.google,🇺🇸 United States
+DOMAIN,api.openrouter.ai,🇺🇸 United States
+DOMAIN,openrouter.ai,🇺🇸 United States
+DOMAIN,console.anthropic.com,🇺🇸 United States
+DOMAIN,api.segment.io,🇺🇸 United States
+DOMAIN-SUFFIX,launchdarkly.com,🇺🇸 United States
+DOMAIN-SUFFIX,diabrowser.engineering,🇺🇸 United States
+DOMAIN-SUFFIX,Typeless Helper,🇺🇸 United States
+
+# 默认线路
+DOMAIN-SUFFIX,Figma Helper,Kuromis
+DOMAIN-SUFFIX,Heptabase,Kuromis
+
+### 归档
+# DOMAIN-SUFFIX,googleapis.com,🇯🇵 日本实验性 IEPL 中继 1
+# DOMAIN-SUFFIX,googleusercontent.com,🇯🇵 日本实验性 IEPL 中继 1
