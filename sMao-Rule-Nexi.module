@@ -6,13 +6,16 @@ DOMAIN,notebooklm.google,AI
 DOMAIN,api.openrouter.ai,AI
 DOMAIN,openrouter.ai,AI
 DOMAIN,console.anthropic.com,AI
-
+DOMAIN,console.anthropic.com,AI
 DOMAIN,api.segment.io,AI
 DOMAIN-SUFFIX,launchdarkly.com,AI
 DOMAIN-SUFFIX,diabrowser.engineering,AI
+DOMAIN,chromewebstore.google.com,AI
+# 客户端
 DOMAIN-SUFFIX,Figma Helper,Proxies
 DOMAIN-SUFFIX,Heptabase,Proxies
 DOMAIN-SUFFIX,Typeless Helper,AI
+
 
 ### 归档
 # DOMAIN-SUFFIX,googleapis.com,🇯🇵 日本实验性 IEPL 中继 1
