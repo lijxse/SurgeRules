@@ -11,7 +11,9 @@ DOMAIN,api.segment.io,AI
 DOMAIN-SUFFIX,launchdarkly.com,AI
 DOMAIN-SUFFIX,diabrowser.engineering,AI
 DOMAIN,chromewebstore.google.com,AI
-DOMAIN,notebooklm.google,AI
+# Google NotebookLM
+DOMAIN-SUFFIX,notebooklm.google,AI
+DOMAIN-SUFFIX,notebooklm.google.com,AI
 
 # 客户端
 DOMAIN-SUFFIX,Figma Helper,Proxies
