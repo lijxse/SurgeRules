@@ -10,6 +10,7 @@ DOMAIN,console.anthropic.com,US
 DOMAIN,api.segment.io,US
 DOMAIN-SUFFIX,launchdarkly.com,US
 DOMAIN-SUFFIX,diabrowser.engineering,US
+DOMAIN-SUFFIX,diabrowser.com,US
 DOMAIN-SUFFIX,Typeless Helper,US
 
 # 默认线路
