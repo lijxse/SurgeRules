@@ -16,7 +16,7 @@ DOMAIN-SUFFIX,notebooklm.google,AI
 DOMAIN-SUFFIX,notebooklm.google.com,AI
 
 # 客户端
-DOMAIN-SUFFIX,Figma Helper,Proxies
+PROCESS-NAME,Figma Helper,Proxies
 DOMAIN-SUFFIX,Heptabase,Proxies
 DOMAIN-SUFFIX,Typeless Helper,AI
 
