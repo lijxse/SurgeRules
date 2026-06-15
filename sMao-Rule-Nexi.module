@@ -11,16 +11,51 @@ DOMAIN,api.segment.io,AI
 DOMAIN-SUFFIX,launchdarkly.com,AI
 DOMAIN-SUFFIX,diabrowser.engineering,AI
 DOMAIN,chromewebstore.google.com,AI
+
 # Google NotebookLM
 DOMAIN-SUFFIX,notebooklm.google,AI
 DOMAIN-SUFFIX,notebooklm.google.com,AI
 
 # 客户端
 PROCESS-NAME,Figma Helper,Proxies
-DOMAIN-SUFFIX,Heptabase,Proxies
+PROCESS-NAME,Heptabase,Proxies
 PROCESS-NAME,Typeless Helper,Proxies
 
+# ============================================================
+# Surge / 类 Surge 代理规则精简速查
+# 基本格式：规则类型,匹配内容,策略名
+# 策略名示例：AI / Proxies / DIRECT / REJECT
+# ============================================================
 
-### 归档
-# DOMAIN-SUFFIX,googleapis.com,🇯🇵 日本实验性 IEPL 中继 1
-# DOMAIN-SUFFIX,googleusercontent.com,🇯🇵 日本实验性 IEPL 中继 1
+
+# DOMAIN
+# 精确匹配一个完整域名，只匹配这个域名本身，不包含它的子域名。
+# 示例：DOMAIN,chromewebstore.google.com,AI
+
+
+# DOMAIN-SUFFIX
+# 匹配某个域名及其所有子域名，最常用，适合给一整个网站或服务分流。
+# 示例：DOMAIN-SUFFIX,notebooklm.google.com,AI
+
+
+# DOMAIN-KEYWORD
+# 只要域名里包含指定关键词就匹配，写起来方便，但容易误伤，建议少量使用。
+# 示例：DOMAIN-KEYWORD,openai,AI
+
+
+# PROCESS-NAME
+# 按软件或进程名分流，适合让某个客户端整体走指定代理；也可以写 App 路径来更精确匹配。
+# 示例：PROCESS-NAME,Figma Helper,Proxies
+# 示例：PROCESS-NAME,Heptabase,Proxies
+# 示例：PROCESS-NAME,/Applications/ChatGPT.app/,AI
+
+
+# RULE-SET
+# 引用一整份外部规则文件；主配置里写策略名，外部文件里只写规则本身，不写策略名。
+# 示例：RULE-SET,https://example.com/ai.list,AI
+
+# ai.list 文件里面可以这样写：
+# DOMAIN-SUFFIX,anthropic.com
+# DOMAIN,claude.ai
+# DOMAIN,notebooklm.google.com
+# DOMAIN-KEYWORD,notebooklm
