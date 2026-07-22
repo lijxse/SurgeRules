@@ -12,6 +12,11 @@ DOMAIN-SUFFIX,launchdarkly.com,AI
 DOMAIN-SUFFIX,diabrowser.engineering,AI
 DOMAIN,chromewebstore.google.com,AI
 
+# Twitter
+DOMAIN-SUFFIX,x.com,AI
+DOMAIN-SUFFIX,twimg.com,AI
+DOMAIN-SUFFIX,twitter.com,AI
+
 # Google NotebookLM
 DOMAIN-SUFFIX,notebooklm.google,AI
 DOMAIN-SUFFIX,notebooklm.google.com,AI
