@@ -23,8 +23,9 @@ DOMAIN-SUFFIX,notebooklm.google.com,AI
 
 # 客户端
 PROCESS-NAME,Figma Helper,AI
-PROCESS-NAME,Heptabase Helper,Proxies
-PROCESS-NAME,Typeless Helper,Proxies
+PROCESS-NAME,Heptabase Helper,AI
+PROCESS-NAME,Heptabase,AI
+PROCESS-NAME,Typeless Helper,AI
 
 # ============================================================
 # Surge / 类 Surge 代理规则精简速查
