@@ -26,6 +26,8 @@ PROCESS-NAME,Figma Helper,AI
 PROCESS-NAME,Heptabase Helper,AI
 PROCESS-NAME,Heptabase,AI
 PROCESS-NAME,Typeless Helper,AI
+PROCESS-NAME,Claude Helper,AI
+
 
 # ============================================================
 # Surge / 类 Surge 代理规则精简速查
